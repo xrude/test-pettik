@@ -1,0 +1,25 @@
+@mixin fontStyle(
+  $fontFamily: IBM Plex Sans,
+  $fontStyle: normal,
+  $fontWeight: 500,
+  $fontSize: 1.125rem // 128px
+) {
+  font-family: $fontFamily;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+}
+@mixin flexbox(
+  $justify: flex-start,
+  $align: stretch,
+  $flexDirection: row,
+  $wrap: nowrap,
+  $flexBasis: auto
+) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $flexDirection;
+  flex-wrap: $wrap;
+  flex-basis: $flexBasis;
+}
