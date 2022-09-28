@@ -1,0 +1,56 @@
+.blogContent {
+
+    margin: 3rem 5rem;
+
+    .blogHeading {
+        width: 108px;
+        height: 24px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 3rem;
+        color: #000000;
+    }
+
+    .articleContent {
+        display: grid;
+        grid-template-columns: 31.5% 31.5% 31.5%;
+        grid-gap: 35px;
+
+        .healthImage {
+            .postImage {
+                cursor: pointer;
+                position: relative;
+
+                .imgResponsive {
+                    width: 100%;
+                    border-radius: 24px;
+                    position: relative;
+                }
+            }
+
+            .healthText {
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        .articleContent {
+            grid-template-columns: 100%;
+        }
+    }
+
+}

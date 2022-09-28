@@ -1,0 +1,64 @@
+@import "../../styles/mixins.scss";
+
+.accountInformationContainer {
+    position: relative;
+    margin: 3rem 0 3rem 0;
+
+    .accountInformationBackgroundImage {}
+
+    .accountInformationBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 400px;
+        background: rgba(160, 68, 255, 0.2);
+        border-radius: 21px;
+        padding: 3rem 3rem 1rem 3rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        input {
+            width: 100%;
+            padding: 15px;
+            margin: 0 0 1.5rem 0;
+            border: none;
+            background: #FFFFFF;
+            border-radius: 10px;
+            color: #582727;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .disabledBtn{
+            background-color: grey;
+        }
+
+        .accountInformationBoxHeading {
+            margin-bottom: 1rem;
+            color: #000000;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 36px;
+        }
+
+        .accountInformationSaveButton {
+            background: #A044FF;
+            width: 75%;
+            border-radius: 10px;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+}

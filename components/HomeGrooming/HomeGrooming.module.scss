@@ -1,0 +1,376 @@
+.professionalGroomingText {
+    text-align: center;
+    padding: 45px 0 45px 0;
+
+    h1 {
+        color: #183762;
+        font-family: IBM Plex Sans;
+        letter-spacing: .035em;
+        line-height: 3.3rem;
+    }
+}
+
+.groomingImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: space-between;
+    place-items: flex-start center;
+    grid-gap: 55px;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+
+    .breedSpecific,
+    .groomingExperts,
+    .qualityProducts,
+    .modernSaloon {
+        .groomingImageText {
+            text-align: center;
+
+            h3 {
+                color: #183762;
+                font-size: 17px;
+
+            }
+
+            p {
+                color: #052A5075;
+                font-weight: 600;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    .groomingImage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.bookAppoinment {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+
+    .appoinment {
+        background-color: rgba(160, 68, 255, 0.92);
+        border-radius: 25px;
+        padding: 12px 25px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        letter-spacing: 0.07em;
+        border: none;
+    }
+}
+
+.exploreOurPack {
+    text-align: center;
+    padding-top: 45px;
+
+    .exploreOurPackTitle {
+        font-size: 30px;
+        color: #052a50;
+        font-weight: 600;
+    }
+
+    .exploreTabs {
+        padding: 30px 0;
+
+        .tablink {
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        .bookAppoinmentExplore {
+            padding-top: 20px;
+            text-align: center;
+
+            .appoinment {
+                background-color: rgba(160, 68, 255, 0.92);
+                border-radius: 25px;
+                padding: 12px 25px;
+                color: #fff;
+                cursor: pointer;
+                font-size: 18px;
+                letter-spacing: 0.07em;
+                border: none;
+            }
+        }
+    }
+}
+
+.tipsForPets {
+    padding: 3rem 0 9rem 0;
+
+    .petsHealth {
+        padding-inline-end: 60px;
+        padding-inline-start: 60px;
+
+        .tipsText {
+            text-align: center;
+            padding-bottom: 30px;
+            padding-top: 15px;
+
+            h1 {
+                color: #183762;
+                letter-spacing: .025em;
+                font-weight: 400;
+                font-size: 2rem;
+
+            }
+        }
+
+        .healthImages {
+            display: grid;
+            grid-template-columns: 31.5% 31.5% 31.5%;
+            grid-gap: 35px;
+
+            .healthImage {
+                .postImage {
+                    min-height: 250px;
+                    position: relative;
+
+                    .imgResponsive {
+                        width: 100%;
+                        border-radius: 24px;
+                        position: relative;
+                    }
+                }
+
+                .healthText {
+                    text-align: center;
+
+                    h3 {
+                        padding-bottom: 5px;
+                        padding-top: 20px;
+                        line-height: 1.5;
+                        color: #183762;
+                        font-size: 1.2rem;
+                    }
+
+                    .healthTextReadNow {
+                        font-size: 15px;
+                        text-decoration: underline;
+                        color: #183762;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+
+            .healthImages,
+            .tipsTextipsForPetst {
+                grid-template-columns: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .petsHealth {
+            padding-inline-end: 0px;
+            padding-inline-start: 0px;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.takecarePets {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff3dd;
+    margin: 40px 0;
+
+    .pets {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 10px 40px;
+
+        .title {
+            font-size: 30px;
+            text-transform: capitalize;
+            padding: 10px;
+            color: #052a50;
+        }
+
+        .subtitle {
+            color: #052a50;
+            font-size: 16px;
+            padding: 5px 13%;
+            line-height: 26px;
+            opacity: .6;
+        }
+    }
+
+    .groomingImagePet {
+        justify-content: space-evenly;
+        display: flex;
+
+        .homeItem {
+            .homeItemImage {
+                max-width: 100%;
+                height: auto;
+                border: 0;
+            }
+
+            .groomingImageText {
+                text-align: center;
+
+                h3 {
+                    color: #183762;
+                    font-size: 17px;
+                    letter-spacing: .03em;
+                    margin-top: 1.5rem;
+                    margin-bottom: 1rem;
+                    line-height: 2rem;
+                }
+
+                p {
+                    color: #052A5075;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 991px) {
+        .groomingImagePet {
+            display: block;
+        }
+    }
+
+    .knowBtn {
+        margin: 50px 0 0;
+
+        .appoinment {
+            border-radius: 25px;
+            padding: 12px 25px;
+            background-color: #052a50;
+            color: #fff;
+            border: none;
+            letter-spacing: .07000000000000001em;
+        }
+    }
+}
+
+.tabContent {
+    display: block;
+    letter-spacing: .03em;
+
+    .tabContentDetails {
+        position: relative;
+        max-width: 1240px;
+        width: 100%;
+        margin: 0 auto;
+        
+
+        .exploreContent {
+            position: absolute;
+            right: 5%;
+            top: 30px;
+            width: 35%;
+            text-align: left;
+            height: 85%;
+            // padding-right: 20px;
+            overflow-y: auto;
+            scrollbar-color: #052a50 #052a5012;
+            scrollbar-width: thin;
+
+            .priceNote {
+                color: #052a50;
+                font-size: 12px;
+            }
+
+            .titlePlan {
+                justify-content: space-between;
+                display: flex;
+
+                .title {
+                    text-transform: uppercase;
+                    padding-left: 0;
+                    font-size: 18px;
+                    color: #052a50;
+                }
+
+                .priceContent {
+                    float: right;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    color: #052a50;
+
+                    .priceRupee {
+                        font-size: 18px;
+                    }
+
+                    .small {
+                        justify-content: flex-end;
+                        display: flex;
+                        font-size: 15px;
+                        padding-left: 0;
+                    }
+                }
+
+            }
+            .text{
+                .d_color{
+                    display: block;
+    padding: 15px 0;
+    color: #a8a69f;
+                }
+                div{
+                    padding-left: 28px;
+                    color:#052a50;
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+                }
+                div::before{
+                    width: 17px;
+                    height: 17px;
+                    background: url("../../public/groomingImages/Landing_check_icon.png") no-repeat center;
+                    background-size: contain;
+    content: '';
+    left: 0px;
+    
+    position: absolute;
+
+                }
+            }
+            .planDescription{
+                .planDescriptionContent{
+                    div{
+                        font-size: 16px;
+                        color: #052a50;
+    margin-top: 20px;
+    padding-top: 50px;
+    position: relative;
+   
+                    }
+                    div::before{
+                        content: '';
+                        background: url("../../public/groomingImages/quote-left-solid.svg") no-repeat center;
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    top: 0;
+    left: 0px;
+
+    background-size: contain;
+    filter: opacity(.2);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.blogDetailsContainer{
+    margin: 3rem;
+    .blogDetailsHeading{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 3rem;
+    }
+    .blogDetailsBanner{
+        margin-bottom: 3rem;
+        .blogDetailsBannerImage{
+            border-radius: 10px;
+        }
+    }
+    .blogParagraph{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #000000;
+    }
+   
+}

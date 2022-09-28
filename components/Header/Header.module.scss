@@ -1,0 +1,77 @@
+@import "../../styles/mixins.scss";
+.header {
+  width: 100%;
+  .headerRow1 {
+    // height: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5%;
+    .coupon {
+      background-color: #a044fffc;
+      color: white;
+      align-content: center;
+      text-align: center;
+      @include fontStyle();
+      // line-height: 1.462rem;
+      letter-spacing: 0.2px;
+  
+      // padding-top: 0.3rem;
+      .code {
+        font-weight: 500;
+      }
+    }
+    .customerSupport {
+      background-color: #a044fffc;
+      color: white;
+      line-height: 1.462rem;
+      text-align: center;
+      @include fontStyle($fontWeight: 500);
+      // padding-top: 0.3rem;
+      // padding-bottom: 5px;
+      letter-spacing: 0.2px;
+      cursor: pointer;
+
+      .text {
+        vertical-align: middle;
+      }
+      .icon {
+        color: black;
+      }
+    }
+  }
+  .headerRow2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    align-items: center;
+
+    .pettikLogo {
+      text-align: center;
+      cursor :pointer;
+      margin-bottom: -25px;
+    }
+    .navigation{
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0px;
+      li {
+        display: inline;
+        @include fontStyle($fontWeight: 700,$fontFamily:"Inter",$fontSize:18px);
+        font-style: normal;
+        line-height: 21.78px;
+        letter-spacing: .02px;
+        padding: 16px;
+        cursor: pointer;
+      }
+      
+    }
+    .button{
+      text-align: center;
+    }
+  }
+  
+  
+}

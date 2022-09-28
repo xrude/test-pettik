@@ -1,0 +1,153 @@
+@import "../../styles/mixins.scss";
+
+.categoryContent {
+    width: 100%;
+
+    .petCategoryListRow {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+
+        .petCategory {
+            margin-right: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+
+            .petCategoryName {
+                @include fontStyle();
+            }
+        }
+    }
+
+}
+
+.downloadOurApps {
+    width: 100%;
+    text-align: center;
+    @include fontStyle($fontWeight: 700, $fontSize: 30px);
+    line-height: 39px;
+    padding-top: 10px;
+}
+
+.googleAppleStoreContent {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .googleAppleStore {
+        padding: 20px;
+    }
+}
+
+.discountContent {
+    width: 100%;
+    background: #E6E6E6;
+
+    .flat {
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .priceOff {
+        @include fontStyle($fontWeight: 700, $fontSize: 47px);
+        line-height: 40px;
+        color: #000000;
+    }
+
+    .discountServices {
+        font-weight: 500;
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .useCode {
+        padding: 10px 0;
+        text-align: center;
+        background: rgba(160, 68, 255, 0.75);
+        border-radius: 8px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 39px;
+    }
+
+    .term {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: right;
+        color: #000000;
+    }
+
+}
+
+.exploreServicesHeading {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0 30px 0;
+}
+
+.exploreServicesContainer {
+    margin-bottom: 7rem;
+    .exploreServiceslist {
+        text-align: center;
+
+        .exploreServicesListName {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 39px;
+            color: #000000;
+        }
+    }
+}
+.healhTipsHeading{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0 30px 0;
+}
+.healhTipsContainer{
+    width: 100%;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   margin: 5rem 0 8rem 0;
+    .healhTipsRow{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 400px;
+       margin-right: 20px;
+        
+       
+        .healhTipsRowImgae{
+            background-image: url("../../public/healthTips.jpg");
+            width:400px;
+            height: 250px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .healhTipsRowReadNow{
+            text-decoration: underline;
+        }
+    }
+}

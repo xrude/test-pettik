@@ -1,0 +1,280 @@
+@import "../../styles/mixins.scss";
+
+
+.vetConsultBanner{
+    position: relative;
+    .bannerContent {
+        position: absolute;
+        top: 50px;
+        left: 88px;
+        .bannerHeading{
+            font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 49px;
+margin-bottom: 20px;
+color: #201A1A;
+        }
+        .bannerSubHeading{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 4px;
+            margin-bottom: 20px;
+            color: #201A1A;
+        }
+        .bannerButton{
+            margin-bottom: 20px;
+            .bannerButtonSchedule{
+                background: rgba(160, 68, 255, 0.92);
+border-radius: 12px;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+padding: 12px 20px;
+margin: 8px 0;
+border: none;
+color: #FFFFFF;
+            }
+        }
+
+      }
+      
+}
+.DownloadAppContent {
+    width: 100%;
+    padding: 0 5rem 0 5rem;
+    margin: 5rem 0 5rem 0;
+
+    .DownloadAppCol {
+        display: flex;
+        flex-direction: column;
+
+        .DownloadAppHeading {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            padding-bottom: 2rem;
+            color: #000000;
+        }
+
+        .DownloadAppSubHeading {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 23px;
+            color: #000000;
+        }
+
+        .DownloadAppImage {
+            padding-top: 2rem;
+            display: flex;
+
+            .DownloadAppStore {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.ConsultationContent {
+    width: 100%;
+    padding: 0 5rem 0 5rem;
+    margin: 5rem 0 5rem 0;
+    height: 239px;
+    background: rgba(160, 68, 255, 0.75);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+    .ConsultationHeading {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 60px;
+
+        color: #FFFFFF;
+    }
+
+    .ConsultationList {
+        display: flex;
+        justify-content: center;
+
+        .ConsultationListItems {
+            display: flex;
+            flex-direction: column;
+            width: 222px;
+            height: 185px;
+            margin-right: 2.5rem;
+            background: linear-gradient(180deg, #F6D8FA 0%, rgba(240, 223, 242, 0) 100%);
+            border-radius: 17px;
+            text-align: center;
+            justify-content: center;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 32px;
+            color: #000000;
+        }
+    }
+}
+
+.HowPettikConsultsWorks {
+    width: 100%;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.HowPettikConsultsWorksContainer {
+    width: 100%;
+    margin: 4rem 0 8rem 0;
+    text-align: center;
+
+    .HowPettikConsultsWorkslist {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        line-height: 20px;
+        color: #000000;
+    }
+}
+
+.areYouAVetContainer {
+    width: 100%;
+    padding: 2.5rem;
+
+    .areYouAVetPurpleContainer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: 100%;
+        height: auto;
+        background: rgba(160, 68, 255, 0.75);
+        border-radius: 26px;
+
+        .areYouAVetPurpleCol1 {
+            padding: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .areYouAVetHaeding {
+                padding-bottom: 2rem;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 45px;
+
+                color: #FFFFFF;
+
+            }
+
+            .areYouAVetSubHaeding {
+                font-family: 'Inter';
+                padding-bottom: 2rem;
+                font-style: normal;
+                letter-spacing: 1.5px;
+                width: 80%;
+                border: none;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+
+                color: #FFFFFF;
+            }
+
+            .areYouAVetButton {
+                .buttonJoinPettik {
+                    font-family: 'IBM Plex Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 23px;
+                    border: 0px;
+                    padding: 10px;
+                    color: #FFFFFF;
+                    background: rgba(228, 103, 244, 0.92);
+                    border-radius: 12px;
+                }
+
+            }
+
+        }
+        .areYouAVetPurpleCol2{
+            
+        }
+    }
+
+}
+.newsLetter{
+ width: 100%;
+ text-align: center;
+ font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+.newsLetterSubHeading{
+    width: 100%;
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 4rem;
+}
+.newsLetterInputBox{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8rem;
+color: rgba(0, 0, 0, 0.4);
+    input[type=text] {
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 0;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        box-sizing: border-box;
+        background: rgba(160, 68, 255, 0.2);
+border-radius: 8px;
+      }
+      input[type=submit] {
+       
+        color: white;
+        padding: 12px 15px;
+        margin: 8px 0;
+        border: none;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        background: #A044FF;
+border-radius: 8px;
+      }
+}

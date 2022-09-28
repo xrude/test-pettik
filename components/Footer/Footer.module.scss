@@ -1,0 +1,57 @@
+.footer {
+    background-color: #383838;
+    color: white;
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    .backToTop {
+      text-align: center;
+      align-self: flex-end;
+      cursor: pointer;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .mainSection {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 3% 0 3%;
+      .column {
+        display: flex;
+        flex-direction: column;
+        .heading {
+          font-weight: 600;
+          font-size: large;
+          font-family: IBM Plex Sans;
+          line-height: 1rem;
+          letter-spacing: 0.2px;
+          padding-bottom: 1rem;
+        }
+        .optionWithIcon {
+          display: flex;
+          flex-direction: row;
+          cursor: pointer;
+          .text {
+            padding-left: 0.5rem;
+          }
+          padding-bottom: 0.8rem;
+        }
+        ul {
+          list-style: none;
+          padding-left: 0;
+          li {
+            padding-bottom: 0.5rem;
+            cursor: pointer;
+            div {
+              display: flex;
+              flex-direction: row;
+            }
+          }
+          .underline {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }

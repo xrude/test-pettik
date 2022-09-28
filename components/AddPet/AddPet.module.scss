@@ -1,0 +1,115 @@
+@import "../../styles/mixins.scss";
+
+.addPetContent {
+    width: 100%;
+    // margin: 2rem 0 2rem 0;
+    padding: 3rem;
+
+    .addPetContentBox {
+        display: flex;
+        flex-direction: column;
+
+        .addPetContentBoxheading {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            color: #000000;
+            margin-bottom: 2rem;
+        }
+
+        .addPetContentBoxCategories {
+
+            .addPetContentBoxSubCategories {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+
+                .addPetContentBoxCategoriesName {
+                    font-family: 'IBM Plex Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+
+                    color: #582727;
+
+                }
+
+                .addPetContentBoxCategoriesBox {
+                    input[type=text] {
+                        text-align: center;
+                        background: rgba(160, 68, 255, 0.01);
+                        border: 1px solid #000000;
+                        border-radius: 10px;
+                        width: 206px;
+                        height: 35px;
+                        font-family: 'IBM Plex Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 27px;
+
+                        color: #A3A3A3;
+                    }
+                    input[type=date] {
+                        text-align: center;
+                        background: rgba(160, 68, 255, 0.01);
+                        border: 1px solid #000000;
+                        border-radius: 10px;
+                        width: 206px;
+                        height: 35px;
+                        font-family: 'IBM Plex Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 27px;
+
+                        color: #A3A3A3;
+                    }
+
+                    .addPetContentBoxCategoriesBoxGender {
+                        display: flex;
+
+                        .gender1 {
+                            width: 91px;
+                            height: 35px;
+                            margin-right: 1.5rem;
+                        }
+
+                        .gender2 {
+                            width: 91px;
+                            height: 35px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .addPetContentBoxAddPetButtonConent {
+            display: flex;
+            justify-content: center;
+
+            .addPetContentBoxAddPetButton {
+                width: 290px;
+                height: 60px;
+                background: #A044FF;
+                border-radius: 10px;
+                color: #FFFFFF;
+                font-family: 'IBM Plex Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+
+}

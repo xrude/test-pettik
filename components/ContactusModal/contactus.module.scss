@@ -1,0 +1,131 @@
+@import "../../styles/mixins.scss";
+
+.contactusContainer {
+  box-shadow: 0rem 0.375rem 1.5rem rgba(58, 65, 104, 0.08);
+  border-radius: 1rem;
+  background-color: #ffffff;
+  min-width: 27.762%;
+  width: auto;
+  min-height: 61%;
+  height: auto;
+  position: absolute;
+  top: 48.75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2.5rem;
+  overflow: hidden;
+  @include flexbox($flexDirection: column, $justify: flex-start);
+  //   background-image: url(./../../public/loginModalBackground.jpeg); 
+
+  .contactusPhoneNumberContainer {
+    width: 375px;
+    height: 105px;
+    background: rgba(160, 68, 255, 0.75);
+    border-radius: 10px;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contactusPhoneNumber {
+      display: flex;
+      color: #FFFFFF;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      .contactusPhoneNumberIcon {
+        margin-left: -3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contactusPhoneNumberDetails {
+        .contactusPhoneNumberDetailsDays {
+          font-family: 'IBM Plex Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+        }
+
+        .contactusPhoneNumberDetailsNumber {
+          font-family: 'IBM Plex Sans';
+          font-style: normal;
+          font-weight: 400;
+          letter-spacing: 1px;
+          font-size: 28px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+
+  .contactusEmailContainer {
+    width: 375px;
+    height: 105px;
+    background: rgba(160, 68, 255, 0.75);
+    border-radius: 10px;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contactusEmail {
+      display: flex;
+      color: #FFFFFF;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-left: 1rem;
+
+      .contactusEmailIcon {
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contactusEmailDetails {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+  }
+
+  .contactusChatWithUs {
+    margin: 0rem 0 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contactusChatWithUsIcon {
+      margin-right: 1rem;
+    }
+
+    .contactusChatWithUsContent {
+      margin-right: 1rem;
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+
+    .contactusChatWithUsQuestionMark {
+      margin-right: 1rem;
+    }
+
+    .contactusChatWithUsFaq {
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,243 @@
+.vaccinationScheduleContainer {
+    background-color: rgba(229, 203, 250, 0.75);
+    width: 100%;
+    padding: 4% 0% 5% 0%;
+
+    .vaccinationSchedule {
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+        .vaccinationScheduleHeadingtitle {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+
+        .vaccinationScheduleSubHeading {
+            text-align: center;
+            margin-bottom: 9px;
+            font-family: 'IBM Plex Sans';
+            font-size: 20px;
+            padding: 0% 10% 3% 10%;
+            font-weight: 400;
+        }
+
+        .vaccinationScheduleDetailsContainer {
+            width: 100%;
+            margin: 0 auto;
+
+            .vaccinationScheduleDetails {
+
+                display: grid;
+                grid-template-columns: 31.5% 31.5% 31.5%;
+                grid-gap: 2rem;
+                margin: 0 auto;
+
+                .vaccinationSchedulePuppyContainer {
+
+                    background-color: #fff;
+                    border-radius: 1rem;
+                    width: 100%;
+                    height: auto;
+                    transition: transform .2s;
+
+                    .vaccinationSchedulePuppy {
+                        display: flex;
+                        padding: 5px;
+
+                        .vaccinationSchedulePuppyheading {
+                            font-family: 'IBM Plex Sans';
+                            font-size: 24px;
+                            font-weight: 700;
+                            display: flex;
+                            text-align: left;
+                            align-items: center;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .vaccinationSchedulePuppyDetails {
+                        background-color: rgba(160, 68, 255, 0.75);
+                        ;
+                        position: relative;
+                        border-radius: 1rem;
+                        width: 100%;
+
+                        padding: 1.5rem 1.5rem .5rem 1.5rem;
+
+                        .vaccinationSchedulePuppyDetailsRows {
+                            margin-bottom: 1rem;
+                            display: flex;
+                            color: white;
+                            text-align: left;
+
+                            .vaccinationSchedulePuppyDetailsRowsicon {
+                                margin-right: .5rem;
+                            }
+                        }
+
+                    }
+                }
+
+                .vaccinationSchedulePuppyContainer:hover {
+                    -ms-transform: scale(.8);
+                    /* IE 9 */
+                    -webkit-transform: scale(.8);
+                    /* Safari 3-8 */
+                    transform: scale(.8);
+                }
+
+                .vaccinationScheduleKittenContainer {
+
+                    background-color: #fff;
+                    border-radius: 1rem;
+                    width: 100%;
+                    height: auto;
+                    transition: transform .2s;
+
+                    .vaccinationScheduleKitten {
+                        display: flex;
+                        padding: 5px;
+
+                        .vaccinationScheduleKittenheading {
+                            font-family: 'IBM Plex Sans';
+                            font-size: 24px;
+                            font-weight: 700;
+                            display: flex;
+                            text-align: left;
+                            align-items: center;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .vaccinationScheduleKittenDetails {
+                        background-color: rgba(124, 40, 208, 0.75);
+                        ;
+                        position: relative;
+                        border-radius: 1rem;
+                        width: 100%;
+
+                        padding: 1.5rem 1.5rem .5rem 1.5rem;
+
+                        .vaccinationScheduleKittenDetailsRows {
+                            margin-bottom: 1rem;
+                            display: flex;
+                            color: white;
+                            text-align: left;
+
+                            .vaccinationScheduleKittenDetailsRowsicon {
+                                margin-right: .5rem;
+                            }
+                        }
+
+                    }
+                }
+
+                .vaccinationScheduleKittenContainer:hover {
+                    -ms-transform: scale(.8);
+                    /* IE 9 */
+                    -webkit-transform: scale(.8);
+                    /* Safari 3-8 */
+                    transform: scale(.8);
+                }
+
+                .vaccinationScheduleDogCatContainer {
+
+                    background-color: #fff;
+                    border-radius: 1rem;
+                    width: 100%;
+                    height: auto;
+                    transition: transform .2s;
+
+                    .vaccinationScheduleDogCat {
+                        display: flex;
+                        padding: 5px;
+                        margin-bottom: 1.5rem;
+
+                        .vaccinationScheduleDogCatheading {
+                            font-family: 'IBM Plex Sans';
+                            font-size: 24px;
+                            font-weight: 700;
+                            display: flex;
+                            text-align: left;
+                            align-items: center;
+                            letter-spacing: 0px;
+                        }
+                    }
+
+                    .vaccinationScheduleDogCatDetails {
+                        background-color: rgba(92, 4, 180, 0.75);
+                        ;
+                        position: relative;
+                        border-radius: 1rem;
+                        width: 100%;
+
+                        padding: 1.5rem 1.5rem .5rem 1.5rem;
+
+                        .vaccinationScheduleDogCatDetailsRows {
+                            margin-bottom: 1rem;
+                            display: flex;
+                            color: white;
+                            text-align: left;
+
+                            .vaccinationScheduleDogCatDetailsRowsicon {
+                                margin-right: .5rem;
+                            }
+                        }
+
+                    }
+                }
+
+                .vaccinationScheduleDogCatContainer:hover {
+                    -ms-transform: scale(.8);
+                    /* IE 9 */
+                    -webkit-transform: scale(.8);
+                    /* Safari 3-8 */
+                    transform: scale(.8);
+                }
+
+            }
+
+            @media (max-width: 767px) {
+
+                .vaccinationScheduleDetails {
+                    grid-template-columns: 100%;
+                    margin: 30px;
+                }
+            }
+        }
+    }
+
+
+}
+
+.faqContainer {
+    padding: 4% 0% 4% 0%;
+
+    .faqHeading {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.2em;
+        letter-spacing: -0.9px;
+    }
+
+    .faqAccordion {
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+
+        .vaccinationTypography {
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+    }
+}
